@@ -1,0 +1,441 @@
+@font-face {
+
+    font-family: iranyekan;
+    src: url(../fonts/IRANYekanWebRegular.eot) format('eot'),
+        url(../fonts/IRANYekanWebRegular.woff2) format('woff2'),
+        url(../fonts/IRANYekanWebRegular.woff) format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: iranyekan;
+    src: url(../fonts/IRANYekanWebMedium.eot) format('eot'),
+        url(../fonts/IRANYekanWebMedium.woff2) format('woff2'),
+        url(../fonts/IRANYekanWebMedium.woff) format('woff');
+    font-weight: 500;
+
+
+}
+
+@font-face {
+    font-family: iranyekan;
+    src: url(../fonts/IRANYekanWebBold.eot) format('eot'),
+        url(../fonts/IRANYekanWebBold.woff2) format('woff2'),
+        url(../fonts/IRANYekanWebBold.woff) format('woff');
+    font-weight: bold;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e5e7eb;
+    font-family: iranyekan;
+}
+
+.main {
+    width: 100%;
+}
+
+.main-menu {
+
+    background: #272727;
+    width: 250px;
+    height: 200%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 55px;
+    z-index: 1;
+}
+
+.main-menu .items {
+    margin-top: 40px;
+    margin-right: 22px;
+}
+
+.main-menu .items li {
+    list-style: none;
+    padding: 30px 0;
+    transition: 0.3s ease;
+}
+
+.main-menu .items li i {
+    color: #c1c1c1;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px 0 15px;
+    float: right;
+
+}
+
+.main-menu .items li a {
+    text-decoration: none;
+    color: #c1c1c1;
+    font-weight: 400;
+    font-size: 16px;
+    float: right;
+
+}
+
+.main-menu .items li:hover i,
+.main-menu .items li:hover a {
+    color: #f3f4f6;
+}
+
+.main-menu .items li:hover i {
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.main-menu .items li:hover a {
+    transform: scale(1.1);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    direction: rtl;
+    background: #f6f6f6;
+    border-bottom: 3px solid rgb(92, 173, 173);
+    position: inherit;
+    top: 0;
+    right: 0;
+    width: 87%;
+    z-index: 2;
+    padding: 10px 0px;
+
+    .notification {
+        font-size: 20px;
+        position: absolute;
+        margin-right: 26%;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: px;
+
+
+    }
+
+    .phone {
+        font-size: 20px;
+        position: absolute;
+        margin-right: 20%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .question {
+        font-size: 20px;
+        position: absolute;
+        margin-right: 14%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+
+    .calendar {
+        font-size: 20px;
+        position: absolute;
+        margin-right: 8%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .bars {
+        font-size: 20px;
+        position: relative;
+        margin-right: 2%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.grid-container1 {
+    display: grid;
+    width: 64%;
+    height: 58%;
+    align-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    padding: 30px;
+    margin-right: 17%;
+    position: inherit;
+    margin-left: 15%;
+    margin-top: 17%;
+    direction: rtl;
+}
+
+.grid-container1>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 10;
+    font-size: 20px;
+}
+
+.d3 {
+    margin-top: 16%;
+    margin-left: 75%;
+    position: fixed;
+}
+
+.a1 {
+    background-color: #909090 !important;
+
+
+}
+
+.a2 {
+    background-color: #0098EE !important;
+}
+
+.a3 {
+    background-color: greenyellow !important;
+
+}
+
+.a4 {
+    background-color: yellow !important;
+
+}
+
+.a5 {
+    background-color: RED !important;
+}
+
+.a6 {
+    background-color: green !important;
+
+}
+
+.a7 {
+    background-color: #282828 !important;
+
+}
+
+.a8 {
+    background-color: blue !important;
+
+}
+
+.a9 {
+    background-color: blue !important;
+
+}
+
+.a10 {
+    background-color: orange !important;
+
+}
+
+.f1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+
+
+
+}
+
+.f2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+
+}
+
+.f3 {
+    text-align: right;
+    position: inherit;
+
+
+}
+
+.r1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.r2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+
+}
+
+.r3 {
+    text-align: right;
+    position: inherit;
+}
+
+.n1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.n2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+    margin-top: 5%;
+
+}
+
+.n3 {
+    text-align: right;
+    position: inherit;
+}
+
+.m1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.m2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+
+}
+
+.m3 {
+    text-align: right;
+    position: inherit;
+}
+
+.v1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.v2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+    margin-top: 5%;
+
+}
+
+.v3 {
+    text-align: right;
+    position: inherit
+}
+
+.k1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.k2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+    margin-top: 5%;
+
+}
+
+.k3 {
+    text-align: right;
+    position: inherit
+}
+
+.c1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.c2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+.c3 {
+    text-align: right;
+    position: inherit
+}
+
+.p1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.p2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+.p3 {
+    text-align: right;
+    position: inherit
+}
+
+.o1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+}
+
+.o2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+    margin-top: 5%;
+}
+
+.o3 {
+    text-align: right;
+    position: inherit
+}
+
+.q1 {
+    text-align: center;
+    position: inherit;
+    margin-left: 30%;
+    margin-right: 20%;
+
+}
+
+.q2 {
+    text-align: right;
+    position: inherit;
+    margin-right: 1%;
+    margin-top: 5%;
+
+}
+
+.q3 {
+    text-align: right;
+    position: inherit;
+
+}
